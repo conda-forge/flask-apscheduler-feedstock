@@ -1,7 +1,7 @@
 {% set name = "flask-apscheduler" %}
 {% set pkg_name = "Flask-APScheduler" %}
-{% set version = "1.9.0" %}
-{% set sha256 = "c9b41cc1c3fba56cc98c1a983ca9173b6f1f1f7d1a39133f272edd2ff75e6ea7" %}
+{% set version = "1.10.1" %}
+{% set sha256 = "6d5939f3be53dfdb2a136c4382f85a6293d50e8664da27f53b607af0b258b69b" %}
 
 
 package:
