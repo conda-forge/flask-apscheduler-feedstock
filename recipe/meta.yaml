@@ -1,7 +1,7 @@
 {% set name = "flask-apscheduler" %}
 {% set pkg_name = "Flask-APScheduler" %}
-{% set version = "1.11.0" %}
-{% set sha256 = "7911d66e449f412d92a1a6c524217f44f4c40a5c92148c60d5189c6c402f87d0" %}
+{% set version = "1.12.1" %}
+{% set sha256 = "45e19411efb3a7e986ed0b476a2d93900744967782fbc349f54b954ac2440362" %}
 
 
 package:
@@ -15,7 +15,7 @@ source:
 build:
   number: 0
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -37,7 +37,7 @@ about:
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
-  summary: 'Flask-APScheduler is a Flask extension which adds support for the APScheduler'
+  summary: Flask-APScheduler is a Flask extension which adds support for the APScheduler
   description: |
     Flask-APScheduler is a Flask extension which adds support for the APScheduler.
     Advanced Python Scheduler (APScheduler) is a Python library that lets you schedule your Python 
