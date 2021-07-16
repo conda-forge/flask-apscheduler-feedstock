@@ -24,9 +24,9 @@ requirements:
   run:
     - python
     - apscheduler
-    - flask>=0.10.1
-    - apscheduler>=3.2.0
-    - python-dateutil>=2.4.2
+    - flask >=0.10.1
+    - apscheduler >=3
+    - python-dateutil >=2.4.2
 
 test:
   imports:
