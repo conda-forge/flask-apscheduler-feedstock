@@ -1,11 +1,11 @@
-About flask-apscheduler
-=======================
+About flask-apscheduler-feedstock
+=================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flask-apscheduler-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/viniciuschiele/flask-apscheduler
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flask-apscheduler-feedstock/blob/main/LICENSE.txt)
 
 Summary: Flask-APScheduler is a Flask extension which adds support for the APScheduler
 
