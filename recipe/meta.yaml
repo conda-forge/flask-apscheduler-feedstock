@@ -1,7 +1,7 @@
 {% set name = "flask-apscheduler" %}
 {% set pkg_name = "Flask-APScheduler" %}
-{% set version = "1.13.0" %}
-{% set sha256 = "19555d6761990f110678aa584ab3ad0e7e698238e6ff60d8f38ab1322bda14c2" %}
+{% set version = "1.13.1" %}
+{% set sha256 = "b929846f026fb339b76360b0e4fc75da78b75c6d08625715bd0d37949bd607da" %}
 
 
 package:
@@ -24,7 +24,7 @@ requirements:
   run:
     - python >=3.6
     - apscheduler >=3.2.0,<4.0.0
-    - flask >=0.10.1
+    - flask >=2.2.5,<4.0.0
     - python-dateutil >=2.4.2
 
 test:
